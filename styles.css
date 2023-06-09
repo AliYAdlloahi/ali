@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --color-primary-white: #ebdfdf;
+  --color-primary-gray: hsl(0, 0%, 63%);
+  font-family: "League Spartan", sans-serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background: none;
+  /* display: block; */
+}
+button:hover {
+  outline: 1px solid gold;
+}
+.hero {
+  background: url(./images/desktop-image-hero-1.jpg) center/cover no-repeat;
+  height: 300px;
+  color: var(--color-primary-white);
+  font-size: 2rem;
+}
+.content {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em;
+  width: 65%;
+  display: flex;
+}
+.nav {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  height: 79.5%;
+}
+.nav button {
+  background: #000;
+  padding: 2em 2.75em;
+}
+
+.spacing {
+  padding: 2.75em 1.5em;
+}
+.cool > h1 {
+   
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 0.75em;
+}
+.cool > h2 {  
+  font-weight: 500;
+  color: gray;
+}
+.hot {
+  letter-spacing: 20px;
+  padding-top: 2.75em; 
+}
+.shampo > p{
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  padding-bottom: 1em;
+  font-weight: 700;
+}
+.shampo > span{
+  color: var(--color-primary-gray);
+  line-height: 1.7;
+}
