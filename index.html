@@ -12,37 +12,50 @@
       href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&family=Roboto:wght@500&family=Tilt+Prism&display=swap"
       rel="stylesheet"
     />
+    <script src="./app.js" defer></script>
   </head>
-
-  <body>
-    <div class="hero">
+  <body class="md">
+    <section class="hero">
       <div class="content">
-        <button><img src="images/icon-hamburger.svg" alt="" /></button>
+        <button class="hamMenu">
+          <img src="images/icon-hamburger.svg" alt="" />
+        </button>
+
         <p>room</p>
+        <nav class="hide">
+          <button class="closeNav">
+            <img src="./images/icon-close.svg" alt="" />
+          </button>
+          <a href="">home</a>
+          <a href="">shop</a>
+          <a href="">about</a>
+          <a href="">contact</a>
+        </nav>
       </div>
       <div class="nav">
         <button><img src="./images/icon-angle-left.svg" alt="" /></button>
         <button><img src="./images/icon-angle-right.svg" alt="" /></button>
       </div>
-    </div>
-    <div class="cool spacing">
+    </section>
+    <section class="cool spacing">
       <h1>Discover innovative <br />ways to decorate</h1>
       <h2>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
         dignissimos numquam repellat suscipit asperiores quas sequi facilis
-        mollitia, atque delectus repellendus? Eum, quos itaque voluptates autem
-        nam recusandae fuga non aspernatur minima, minus totam ut!
+        mollitia, atque delectus repellendus? Eum, quos itaque
       </h2>
 
       <div class="hot">
-        <span>SHOP </span><span>NOW</span>
-        <button><img src="./images/icon-arrows.svg" alt="" /></button>
+        <a href="">
+          <span>SHOP</span><span>NOW</span>
+          <button><img src="./images/icon-arrow.svg" alt="" /></button>
+        </a>
       </div>
-    </div>
-    <div class="popo">
+    </section>
+    <section class="popo">
       <img src="./images/image-about-dark.jpg" alt="" />
-    </div>
-    <div class="shampo spacing">
+    </section>
+    <section class="shampo spacing">
       <p>about our furniture</p>
       <span
         >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
@@ -52,7 +65,8 @@
         explicabo vero eaque suscipit sunt, nihil aut? Necessitatibus cum
         incidunt ducimus? Doloremque, dignissimos vero.</span
       >
-    </div>
+    </section>
     <img src="./images/image-about-light.jpg" alt="" class="footer" />
   </body>
 </html>
+
