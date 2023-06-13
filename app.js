@@ -21,7 +21,8 @@ let index = 0;
 const data = [
   {
     url: "./images/desktop-image-hero-1.jpg",
-    heading: "ممد حرامزاده",
+    heading: "Discover innovative ways to decorate",
+
     des: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat laudantium
 sdfs biidsfs, aperiam illum zxcv suscipit cvbc perferendis
 ullam, minus ,hnj! Necessitatibus facere eaque officiis unde quibusdam,
@@ -29,7 +30,7 @@ qui laborum nobis.`,
   },
   {
     url: "./images/desktop-image-hero-2.jpg",
-    heading: "درد مریم ب جانم ",
+    heading: "we are available all across the globe",
     des: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat laudantium
 voluptatem quas, aperiam illum temporibus suscipit xcvxc perferendis
 ullam, minus xcvx! Necessitatibus facere eaque officiis unde quibusdam,
@@ -37,7 +38,7 @@ qui laborum xvxc.`,
   },
   {
     url: "./images/desktop-image-hero-3.jpg",
-    heading: "kerendi haram zade",
+    heading: "Manufactured with the best material",
     des: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat laudantium
 voluptatem quas, aperiam illum temporibus suscipit dignissimos perferendis
 ullam, minus distinctio! Necessitatibus facere eaque officiis unde quibusdam,
@@ -56,8 +57,8 @@ buttons.lastElementChild.addEventListener("click", function (e) {
 buttons.firstElementChild.addEventListener("click", function (e) {
   if (index > 0) index--;
   else index = data.length - 1;
-heading.textContent = data[index].heading;
-description.textContent = data[index].des;
+  heading.textContent = data[index].heading;
+  description.textContent = data[index].des;
   console.log(index);
   hero.style.backgroundImage = "url(" + data[index].url;
 });
