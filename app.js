@@ -2,8 +2,12 @@
 const closeIcon = document.querySelector(".closeNav");
 const nav = document.querySelector("nav");
 const menu = document.querySelector(".content >button");
+const wraper=document.querySelector('.wraper')
 
 closeIcon.addEventListener("click", function (e) {
+  nav.classList.add("hide");
+});
+wraper.addEventListener("click", function (e) {
   nav.classList.add("hide");
 });
 
