@@ -69,11 +69,11 @@ nav {
   display: flex;
   justify-content: end;
   align-items: end;
-  height: 77%;
+  height: 79.5%;
 }
 .nav button {
   background: #000;
-  padding: 2em 2.75em;
+  padding: 2em 3em;
 }
 
 .spacing {
@@ -120,7 +120,7 @@ nav {
 @media (min-width: 900px) {
   .md {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 500px 300px;
   }
   .hero {
@@ -167,14 +167,16 @@ nav {
   }
   .nav {
     position: absolute;
-    right: 25.85%;
-    top: -12.3%;
+    right: 25%;
+    top: -11.6%;
     padding-right: 0em;
   }
   .hero a {
     color: white;
   }
-  .closeNav {
+
+  .closeNav,
+  .wraper {
     display: none;
   }
 }
