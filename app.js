@@ -21,7 +21,7 @@ let index = 0;
 const data = [
   {
     url: "./images/desktop-image-hero-1.jpg",
-    heading: "ممد حرامزاذه",
+    heading: "ممد حرامزاده",
     des: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat laudantium
 sdfs biidsfs, aperiam illum zxcv suscipit cvbc perferendis
 ullam, minus ,hnj! Necessitatibus facere eaque officiis unde quibusdam,
